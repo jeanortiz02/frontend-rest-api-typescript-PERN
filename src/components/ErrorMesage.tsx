@@ -1,6 +1,6 @@
 
 
-import React, { PropsWithChildren } from 'react'
+import { PropsWithChildren } from 'react'
 
 export default function ErrorMesage({children} : PropsWithChildren) {
   return (
