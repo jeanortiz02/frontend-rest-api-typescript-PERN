@@ -13,7 +13,7 @@ export async function loader() {
 export async function action ({request} : ActionFunctionArgs) {
   const data = Object.fromEntries(await request.formData())
   await updatedProductAvailability(+data.id);
-  return null
+  return {}
 }
 
 export default function Products() {
